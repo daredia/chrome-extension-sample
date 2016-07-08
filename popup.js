@@ -58,7 +58,7 @@ function getImageUrl(searchTerm, callback, errorCallback) {
   // Google image search - 100 searches per day.
   // https://developers.google.com/image-search/
   // var searchUrl = 'https://www.googleapis.com/customsearch/v1?key=AIzaSyD1cZ-0CsOIRDrxeYdclGMqymPQT8QW76E&cx=013429950514050259067:exhwha2stxm&searchType=image&q=' + encodeURIComponent(searchTerm);
-  var searchUrl = 'https://www.googleapis.com/customsearch/v1?key=AIzaSyD1cZ-0CsOIRDrxeYdclGMqymPQT8QW76E&cx=013429950514050259067:exhwha2stxm&searchType=image&q=basketball';
+  var searchUrl = 'https://www.googleapis.com/customsearch/v1?key=INSERT_KEY&cx=013429950514050259067:exhwha2stxm&searchType=image&q=basketball';
   var x = new XMLHttpRequest();
   x.open('GET', searchUrl);
   // The Google image search API responds with JSON, so let Chrome parse it.
